@@ -17,6 +17,6 @@ public class SayHello {
 	
 		String hello="test";
 		hello=env.getProperty("hello.test");
-		return "Hi!! Your Docker Build pipeline created- Testing openshift webhook 1 "+hello;
+		return "Hi!! Your Docker Build pipeline created- Testing openshift webhook 2 "+hello;
 	}
 }
